@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Check if the log file is passed as an argument
+# Check if run via command line argument
 if [ "$#" -ne 1 ]; then
   echo "Usage: $0 <nginx-access-log-file>"
   exit 1
@@ -19,6 +19,7 @@ echo "Top 5 IP Addresses:"
 awk '{print $1}' "$LOG_FILE" | sort | uniq -c | sort -rn | head -5
 echo ""
 
+# Copy Pasta Intensifies
 # Top 5 Requested Paths
 echo "Top 5 Requested Paths:"
 awk '{print $7}' "$LOG_FILE" | sort | uniq -c | sort -rn | head -5
