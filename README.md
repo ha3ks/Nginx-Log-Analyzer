@@ -15,14 +15,14 @@ To run either of these scripts you have to make it executable by running:
 # Python:
 chmod +x python_log_analyzer.py 
 
-Bash:
+# Bash:
 chmod +x bash_log_analyzer.sh
 ```
 
 Now you can run the script from the command line and pass it the path to the log file:
 
 ```
-.\python_log_analyzer.py \<PATH THE LOGFILE>
+python3 .\python_log_analyzer.py \<PATH THE LOGFILE>
 ```
 
 An example of this running in Python:
