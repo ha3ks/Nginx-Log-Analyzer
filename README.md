@@ -7,6 +7,10 @@ Checking on the DevOps Project Ideas Roadmap - [Link](https://roadmap.sh/devops/
 
 Ended up with a Python and Bash version of the script, the latter using things like awk, sort, and uniq.
 
+```
+Project URL:
+https://roadmap.sh/projects/nginx-log-analyser
+```
 # Instructions
 
 To run either of these scripts you have to make it executable by running:
